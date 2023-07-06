@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 80%;
+    margin: auto;
+}
+.nav-container{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.logo{
+    border: 1px solid red;
+    padding: 4px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.red-text{
+    color: rgb(255, 0, 0);
+}
+.nav-link{
+    display: flex;
+    font-size: 18px;
+}
+.item{
+    margin-right: 30px;
+    border: 1px solid rgb(248, 248, 248);
+    padding: 4px;
+    border-radius: 5px;
+}
+.item:hover{
+    color: rgb(0, 247, 255);
+}
+.banner{
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("image/background.png");
+    background-image: linear-gradient(rgb(88, 84, 117), rgb(83, 83, 77));
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.title{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.para{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.btn{
+    border: none;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+}
+.btn:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.about-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service{
+    background-image: linear-gradient(rgb(88, 84, 117), rgb(50, 141, 216));
+}
+.services-container{
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-around;
+}
+.services1{
+    height: 400px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    margin: 50px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 4PX 4PX 15PX gray;
+}
+.service-img{
+    width: 80px;
+}
+.text{
+    margin-top:40px;
+    font-size: 40px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    padding: 50px;
+}
+h2{
+    margin-bottom: 20px;
+}
+hr{
+    color: gray;
+}
+.copywrite{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(53, 46, 46);
+    color: bisque;
+}
